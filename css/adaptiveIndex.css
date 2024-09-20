@@ -1,0 +1,105 @@
+@media screen and (max-width: 1000px) {
+  
+  .subText-about {
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+  
+  .headerTitle {
+    font-size: 45px;
+  }
+  
+  .subText-header {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .aboutTitle {
+    font-size: 50px;
+  }
+
+  .ticketTitle {
+    font-size: 50px;
+  }
+
+  .galleryTitle {
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (max-width: 585px) {
+
+  .headerTitle {
+    font-size: 40px;
+  }
+  
+  .subText-header {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .subText-about {
+    font-size: 30px;
+  }
+  
+  .aboutTitle {
+    font-size: 40px;
+  }
+
+  .ticketTitle {
+    font-size: 40px;
+  }
+
+  .galleryTitle {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .subText-header {
+    font-size: 25px;
+  }
+
+  .subText-about {
+    font-size: 25px;
+  }
+  
+  .aboutTitle {
+    font-size: 30px;
+  }
+
+  .ticketTitle {
+    font-size: 30px;
+  }
+
+  .galleryTitle {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  
+  .subText-header {
+    font-size: 20px;
+  }
+  
+  .aboutTitle {
+    font-size: 25px;
+  }
+
+  .ticketTitle {
+    font-size: 25px;
+  }
+
+  .galleryTitle {
+    font-size: 25px;
+  }
+
+}

@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100vw;
+  height: 50vh;
+  background-image: url(../img/clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  /* border: 3px solid red; */
+  width: 100vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cloudsHeader {
+  max-width: 100%;
+  position: absolute;
+  z-index: 9999;
+}
+
+.content-box-header {
+  width: 100%;
+  height: 50%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 9999;
+  color: black;
+}
+
+.content-box {
+  width: 80%;
+}
+
+.headerTitle {
+  font-size: 60px;
+}
+
+.subText-header {
+  font-size: 50px;
+}
+
+.aboutTitle {
+  font-size: 60px;
+}
+
+.subText-about {
+  font-size: 50px;
+}
+
+.ticketSection {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ticketTitle {
+  text-align: center;
+  font-size: 60px;
+}
+
+.content-box-ticket {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ticketForm {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+input {
+  width: 195px;
+  height: 35px;
+  outline: none;
+  border: 3px solid rgb(15, 161, 209);
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.formReset {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.galleryTitle {
+  text-align: center;
+  font-size: 60px;
+}
+
+.gallery-box {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+ 
+.gallery-item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+ 
+.gallery-item3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+ 
+.gallery-item4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+ 
+.gallery-item5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+ 
+.gallery-item6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
